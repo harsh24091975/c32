@@ -22,7 +22,7 @@ var backgroundImage;
 var scoregame = 0;
 
 function preload() {
-  getTime()
+   backgroundImage = loadImage("sky for game.jpg");
 }
 
 
@@ -86,7 +86,6 @@ function setup() {
 }
 
 function draw() {
-  if(backgroundImage) 
   background(backgroundImage);
 
   textSize(35);
